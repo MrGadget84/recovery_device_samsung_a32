@@ -15,4 +15,4 @@ Blobs version:
 > Ramdisk, DTB, DTBO base: A325FXXSCDYB2
 
 Kernel source:
-> https://github.com/long266/android_kernel_samsung_a32/tree/s
+> https://github.com/Luminous418/android_kernel_samsung_a32/tree/erofs
