@@ -159,6 +159,7 @@ TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 TW_INCLUDE_LIBRESETPROP := true
+$(shell cp -f device/samsung/a32/CI_scripts/maintainer.png vendor/recovery/orangefox/assets/images/maintainer.png)
 
 # Extra OFOX flags
 OF_ENABLE_FRP_ADDON := 1
