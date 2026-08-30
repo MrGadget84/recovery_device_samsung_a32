@@ -42,6 +42,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     # R12.1 Settings
 	export FOX_MAINTAINER_PATCH_VERSION="0"
 	export OF_MAINTAINER="MrGadget84"
+	cp -f device/samsung/a32/CI_scripts/maintainer.png vendor/recovery/orangefox/assets/images/maintainer.png 2>/dev/null || true
 
 	export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
 	#export FOX_VANILLA_BUILD=1
