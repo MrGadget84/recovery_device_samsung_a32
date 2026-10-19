@@ -21,3 +21,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
+
+# AERA device tree namespace. No OnePlus/Qualcomm device-specific services are imported.
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)

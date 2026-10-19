@@ -16,3 +16,7 @@ Blobs version:
 
 Kernel source:
 > https://github.com/Luminous418/android_kernel_samsung_a32/tree/erofs
+
+
+## AERA 16.0 adaptation
+See [README_AERA.md](README_AERA.md) for the initial AERA bring-up tree and its known limitations.
